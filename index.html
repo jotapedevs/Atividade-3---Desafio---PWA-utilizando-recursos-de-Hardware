@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan & Go</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Adicionar link para o arquivo CSS -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Scan & Go</h1>
+    </header>
+    <main>
+        <section id="scanner">
+            <video id="video" width="640" height="480"></video>
+            <canvas id="canvas" width="640" height="480"></canvas>
+            <button id="scan-btn">Scan</button>
+            <!-- Adicionar o botão de ligação e desligamento da câmera -->
+            <button id="camera-toggle-btn">Ligar Câmera</button>
+
+            <!-- Adicionar o elemento de vídeo para exibir a câmera -->
+            <video id="camera-video" width="640" height="480"></video>
+        </section>
+        <section id="product-info">
+            <h2>Produto</h2>
+            <p id="product-name"></p>
+            <p id="product-description"></p>
+            <p id="product-price"></p>
+            <!-- Adicionar o mapa ao HTML -->
+            <div id="map" style="width: 640px; height: 480px;"></div>
+            <!-- Adicionar o botão para abrir o mapa -->
+            <button id="open-map-btn">Abrir Mapa</button>
+
+            <!-- Adicionar o mapa ao HTML -->
+            <div id="map" style="width: 640px; height: 480px;"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
